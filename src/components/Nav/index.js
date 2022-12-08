@@ -4,7 +4,7 @@ import logo from "../../assets/small/gc-logo-0.5x.png";
 const Nav = () => {
   return (
     <div>
-      <nav className="level is-mobile py-2 has-background-grey-dark	">
+      <nav className="level is-mobile py-2">
         <p className="level-item"></p>
         <p className="level-item has-text-centered">
           <a className="has-text-white">About</a>

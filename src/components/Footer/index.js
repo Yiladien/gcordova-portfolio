@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="section">
+    <div id="footer" className="section">
       <div className="columns is-desktop">
         <div className="column"></div>
         <div className="column is-three-quarters-desktop">
@@ -11,7 +11,7 @@ const Footer = () => {
               Gabriel Cordova
             </div>
           </div>
-          <nav className="level is-mobile">
+          <div className="level is-mobile">
             <div className="level-item has-text-centered">
               <div>
                 <span id="github-icon" className="icon">
@@ -48,7 +48,7 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-          </nav>
+          </div>
         </div>
         <div className="column"></div>
       </div>
