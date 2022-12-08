@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
@@ -8,7 +7,9 @@ const Footer = () => {
         <div className="column"></div>
         <div className="column is-three-quarters-desktop">
           <div className="level is-mobile">
-            <div className="header level-item">Gabriel Cordova</div>
+            <div className="header level-item has-text-weight-bold	">
+              Gabriel Cordova
+            </div>
           </div>
           <nav className="level is-mobile">
             <div className="level-item has-text-centered">
