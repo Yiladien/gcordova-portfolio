@@ -33,6 +33,9 @@ body {
 
 nav {
   background-color: var(--header-color);
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 9999;
 }
 
 #footer {

@@ -5,12 +5,13 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 
 function App() {
   return (
     <div>
       <Nav />
-      <Portfolio />
+      <Resume />
       <Footer />
     </div>
   );

@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import pic1 from "../../assets/2.jpg";
+import React from "react";
 
 const ProjectList = () => {
-  const photoList = [0, 1, 2, 3, 4];
   const projectArr = [
     {
       name: "Password Generator",
