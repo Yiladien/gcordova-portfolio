@@ -44,3 +44,9 @@ nav {
   fill: currentColor;
   color: #fff;
 }
+
+@media screen and (max-width: 375px) {
+  nav {
+    font-size: 0.8rem;
+  }
+}
