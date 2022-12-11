@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gcordova-portfolio/static/css/main.764b5953.css",
+    "main.js": "/gcordova-portfolio/static/js/main.7903f145.js",
+    "static/js/787.369768fc.chunk.js": "/gcordova-portfolio/static/js/787.369768fc.chunk.js",
+    "static/media/profilepic.jpg": "/gcordova-portfolio/static/media/profilepic.fab34bbe834c4169486a.jpg",
+    "static/media/3.jpg": "/gcordova-portfolio/static/media/3.b391e0a4069f085895ab.jpg",
+    "static/media/2.jpg": "/gcordova-portfolio/static/media/2.fac938ac1bcb6a4cf186.jpg",
+    "static/media/7.jpg": "/gcordova-portfolio/static/media/7.973f52a29ac83ea2a249.jpg",
+    "static/media/1.jpg": "/gcordova-portfolio/static/media/1.592e765282546bf364b6.jpg",
+    "static/media/4.jpg": "/gcordova-portfolio/static/media/4.f7c94a3b814e43661906.jpg",
+    "static/media/0.jpg": "/gcordova-portfolio/static/media/0.95561cf5204aa860e7af.jpg",
+    "static/media/6.jpg": "/gcordova-portfolio/static/media/6.4826523bd22ebe106216.jpg",
+    "static/media/5.jpg": "/gcordova-portfolio/static/media/5.b05e9a05d44af92d79ed.jpg",
+    "index.html": "/gcordova-portfolio/index.html",
+    "main.764b5953.css.map": "/gcordova-portfolio/static/css/main.764b5953.css.map",
+    "main.7903f145.js.map": "/gcordova-portfolio/static/js/main.7903f145.js.map",
+    "787.369768fc.chunk.js.map": "/gcordova-portfolio/static/js/787.369768fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.764b5953.css",
+    "static/js/main.7903f145.js"
+  ]
+}
