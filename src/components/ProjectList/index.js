@@ -202,7 +202,7 @@ const ProjectList = () => {
   return (
     <>
       {projectArr.map((project, i) => (
-        <div className="column is-5-desktop box has-text-centered">
+        <div className="column is-5-desktop box has-text-centered" key={i}>
           <p className="title is-5 has-background-grey-lighter		p-1">
             {project.name}
           </p>
@@ -212,14 +212,13 @@ const ProjectList = () => {
                 <img
                   src={require(`../../assets/${project.image}`)}
                   alt={project.name}
-                  key={i}
                 />
               </figure>
             </a>
           </div>
           <div className="field is-grouped is-grouped-multiline mb-2">
-            {project.technology.map((tech) => (
-              <div className="control">
+            {project.technology.map((tech, j) => (
+              <div className="control" key={j}>
                 <div className="tags has-addons">
                   <span className="tag is-dark">{tech.theme}</span>
                   <span className="tag is-info">{tech.app}</span>

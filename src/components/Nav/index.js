@@ -2,13 +2,19 @@ import React from "react";
 import logo from "../../assets/small/gc-logo-0.5x.png";
 
 function Nav(props) {
-  const { setCurrentPage } = props;
+  const { currentPage, setCurrentPage } = props;
+
+  console.log("1. ", currentPage);
 
   return (
-    <div>
-      <nav className="level is-mobile py-2 is-fixed-top">
+    <div id="nav-header">
+      <nav className="level is-mobile py-2">
         <p className="level-item"></p>
-        <p className="level-item has-text-centered">
+        <p
+          className={`level-item has-text-centered mx-2 ${
+            currentPage === "about" && "navActive"
+          }`}
+        >
           <a
             className="has-text-white"
             href="#about"
@@ -17,7 +23,11 @@ function Nav(props) {
             About
           </a>
         </p>
-        <p className="level-item has-text-centered">
+        <p
+          className={`level-item has-text-centered mx-2 ${
+            currentPage === "portfolio" && "navActive"
+          }`}
+        >
           <a
             className="has-text-white"
             href="#portfolio"
@@ -26,14 +36,18 @@ function Nav(props) {
             Portfolio
           </a>
         </p>
-        <div className="level-item has-text-centered">
+        <div className="level-item has-text-centered mx-2">
           <a href="#about" onClick={() => setCurrentPage("about")}>
             <figure className="image is-64x64">
               <img src={logo} alt="" height="50"></img>
             </figure>
           </a>
         </div>
-        <p className="level-item has-text-centered">
+        <p
+          className={`level-item has-text-centered mx-2 ${
+            currentPage === "resume" && "navActive"
+          }`}
+        >
           <a
             className="has-text-white"
             href="#resume"
@@ -42,7 +56,11 @@ function Nav(props) {
             Resume
           </a>
         </p>
-        <p className="level-item has-text-centered">
+        <p
+          className={`level-item has-text-centered mx-2 ${
+            currentPage === "contact" && "navActive"
+          }`}
+        >
           <a
             className="has-text-white"
             href="#contact"
