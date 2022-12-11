@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div id="footer" className="section">
+    <footer id="footer" className="footer">
       <div className="columns is-desktop">
         <div className="column"></div>
         <div className="column is-three-quarters-desktop">
@@ -51,13 +51,17 @@ const Footer = () => {
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <a href="mailto: yiladien@gmail.com">
-                  <span id="email-icon" className="icon">
+                <a
+                  href="https://stackoverflow.com/users/18272025/gabriel-cordova"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span id="stack-icon" className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
+                      viewBox="0 0 384 512"
                     >
-                      <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                      <path d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z" />
                     </svg>
                   </span>
                 </a>
@@ -81,7 +85,7 @@ const Footer = () => {
         </div>
         <div className="column"></div>
       </div>
-    </div>
+    </footer>
   );
 };
 
