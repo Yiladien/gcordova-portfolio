@@ -19,6 +19,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color-primary);
+  color: var(--font-color);
 }
 
 code {
@@ -26,16 +28,24 @@ code {
     monospace;
 }
 
-body {
-  background-color: var(--bg-color-primary);
-  color: var(--font-color);
-}
-
-nav {
+#nav-header {
   background-color: var(--header-color);
   position: sticky;
   position: -webkit-sticky;
+  top: 0;
   z-index: 9999;
+}
+
+#about-header {
+  border-radius: 5px 5px 4px 4px;
+  position: relative;
+}
+
+#profile-pic {
+  position: absolute;
+  right: 30px;
+  top: -5px;
+  z-index: 9995;
 }
 
 #footer {

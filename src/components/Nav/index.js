@@ -5,8 +5,8 @@ function Nav(props) {
   const { setCurrentPage } = props;
 
   return (
-    <div>
-      <nav className="level is-mobile py-2 is-fixed-top">
+    <div id="nav-header">
+      <nav className="level is-mobile py-2">
         <p className="level-item"></p>
         <p className="level-item has-text-centered">
           <a
