@@ -10,6 +10,8 @@ A personal portfolio of Gabriel Cordova featuring a fully front-end react applic
 
 ## Application Link
 
+http://yiladien.github.io/gcordova-portfolio
+
 ---
 
 ## Table of Contents
