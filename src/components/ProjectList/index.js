@@ -197,6 +197,37 @@ const ProjectList = () => {
       ghLink: "https://github.com/Yiladien/social-network-API",
       image: "7.jpg",
     },
+    {
+      name: "WATCHTIME",
+      technology: [
+        {
+          theme: "Db",
+          app: "Mongoose",
+        },
+        {
+          theme: "Db",
+          app: "GraphQL",
+        },
+        {
+          theme: "Node",
+          app: "MongoDB",
+        },
+        {
+          theme: "Process",
+          app: "MERN",
+        },
+        {
+          theme: "Code",
+          app: "REACT",
+        },
+        {
+          theme: "Framework",
+          app: "REACT Bootstrap",
+        },
+      ],
+      ghLink: "https://github.com/JaredLove/Watch--Time",
+      image: "8.jpg",
+    },
   ];
 
   return (
